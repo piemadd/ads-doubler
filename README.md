@@ -1,5 +1,7 @@
 # TableDent
 
+## Intro
+
 Are you disappointed that the number of ads on the site you're visiting doesn't make you want to make a dent in your table the size of your head? [Table Dent](https://www.tabledent.com/) might just be the thing for you, as with the click of a button, the number of URLs on the website you are visiting will skyrocket!
 
 Have any feedback? Feel free to open up an issue!
@@ -10,7 +12,7 @@ Links:
 - [Project source code on Github](https://github.com/pieromqwerty/ads-doubler)
 - [Package on NPM](https://www.npmjs.com/package/ads-doubler).
 
-# TableDent - Docs
+## Docs
 
 You can actually use TableDent on your own website, and it is super simple!
 
