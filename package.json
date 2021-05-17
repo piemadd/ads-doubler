@@ -1,0 +1,19 @@
+{
+  "name": "ads-doubler",
+  "version": "1.1.0",
+  "description": "Don't have enough ads interrupting your sight on the web? Just double them!",
+  "main": "echo \"This npm library was intended for web use. Read the docs for more information. \"",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pieromqwerty/ads-doubler.git"
+  },
+  "author": "Piero Maddaleni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pieromqwerty/ads-doubler/issues"
+  },
+  "homepage": "https://github.com/pieromqwerty/ads-doubler#readme"
+}

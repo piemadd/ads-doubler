@@ -1,0 +1,19 @@
+{
+	"name": "Table Dent",
+	"description": "Don't have enough ads interrupting your sight on the web? Just double them by clicking the icon!",
+	"version": "1.1.0",
+	"manifest_version": 2,
+	"background": {
+		"scripts": ["adDoubler.js"]
+	},
+	"permissions": [
+		"activeTab"
+	],
+	"action": {},
+	"icons": {
+		"16": "/images/ad_doubler16.png",
+		"32": "/images/ad_doubler32.png",
+		"48": "/images/ad_doubler48.png",
+		"128": "/images/ad_doubler128.png"
+	}
+}
