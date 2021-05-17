@@ -1,6 +1,6 @@
 {
   "name": "ads-doubler",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "Don't have enough ads interrupting your sight on the web? Just double them!",
   "main": "echo \"This npm library was intended for web use. Read the docs for more information. \"",
   "scripts": {
