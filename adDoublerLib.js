@@ -25,3 +25,17 @@ function byClassDefault() {
 		byclass[i].innerHTML += byclass[i].innerHTML;
 	};
 };
+
+function byClassGuessA() {
+	var byclassguessa = document.querySelectorAll("[class*='sponsored']");
+	for (let i = 0; i < byclassguessa.length; i++) {
+		byclassguessa[i].innerHTML += byclassguessa[i].innerHTML;
+	};
+}
+	
+function byClassGuessB() {	
+	var byclassguessb = document.querySelectorAll("[class*='ad']");
+	for (let i = 0; i < byclassguessb.length; i++) {
+		byclassguessb[i].innerHTML += byclassguessb[i].innerHTML;
+	};
+}

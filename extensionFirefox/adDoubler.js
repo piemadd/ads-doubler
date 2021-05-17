@@ -1,17 +1,19 @@
 function allDefault() {
 	var byid = document.querySelectorAll("[id*='google_ads_iframe']");
-	console.log(byid);
-		for (let i = 0; i < byid.length; i++) {
+	for (let i = 0; i < byid.length; i++) {
 		byid[i].innerHTML += byid[i].innerHTML;
-		console.log("byid")
-		console.log(i)
 	};
 	var byclass = document.getElementsByClassName("adsbygoogle");
-	console.log(byclass);
 	for (let i = 0; i < byclass.length; i++) {
 		byclass[i].innerHTML += byclass[i].innerHTML;
-		console.log("byclass")
-		console.log(i)
+	};
+	var byclassguessa = document.querySelectorAll("[class*='sponsored']");
+	for (let i = 0; i < byclassguessa.length; i++) {
+		byclassguessa[i].innerHTML += byclassguessa[i].innerHTML;
+	};
+	var byclassguessb = document.querySelectorAll("[class*='ad']");
+	for (let i = 0; i < byclassguessb.length; i++) {
+		byclassguessb[i].innerHTML += byclassguessb[i].innerHTML;
 	};
 }
 
