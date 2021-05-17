@@ -24,6 +24,8 @@ function byClassDefault() {
 	for (let i = 0; i < byclass.length; i++) {
 		byclass[i].innerHTML += byclass[i].innerHTML;
 	};
+	byClassGuessA();
+	byClassGuessB();
 };
 
 function byClassGuessA() {
